@@ -1,0 +1,39 @@
+.editmodal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+}
+.editmodal-box{
+    background-color: var(--white);
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.editmodal-box h1{
+    font-size: 18px;
+}
+.editmodal-box button{
+    border: none;
+    color: white;
+    background-color: var(--blue);
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.editmodal-box input{
+    width: 100%;
+    border: none;
+    background-color: var(--white-50);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

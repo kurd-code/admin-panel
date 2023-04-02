@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className='header'>
         <div className='header-right'>
-            <img src="./soran.JPG" alt="" />
+            <img className='header-right-profile' src="./soran.JPG" alt="profile" />
             <div className='header-right-text'>
                 <h1>سوران غفوری</h1>
                 <p>برنامه نویس فرانت اند</p>

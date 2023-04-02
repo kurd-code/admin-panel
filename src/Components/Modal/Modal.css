@@ -1,0 +1,37 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+}
+.modal-delete{
+    background-color: var(--white);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-delete h1{
+    font-size: 25px;
+}
+.modal-delete-button-ok{
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    font-size: 20px;
+    padding: 4px 20px;
+    margin:20px 10px;
+}
+.modal-delete-button-no{
+    border: none;
+    background-color: var(--white-50);
+    font-size: 20px;
+    padding: 4px 20px;
+    margin:20px 10px;
+}
