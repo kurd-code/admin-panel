@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './Detalis.css'
 
-export default function Detalis({setShowDatalis}) {
+export default function Detalis({setShowDatalis , mainProductInfo}) {
   return ReactDOM.createPortal(
     
     <div className='datalis' onClick={()=>setShowDatalis(false)}>
@@ -10,16 +10,15 @@ export default function Detalis({setShowDatalis}) {
             <table className='datalis-box-table'>
                 <thead  className='datalis-box-table-thead'>
                     
-                        <th>اسم</th>
-                        <th>قیمت</th>
+                        <th>فروش</th>
+                        <th>رنگ بندی</th>
                         <th>محبوبیت</th>
                     
                 </thead>
                 <tbody  className='datalis-box-table-tbody'>
-
-                        <th>لپتاپ</th>
-                        <th>100000</th>
-                        <th>91</th>
+                        <th>{mainProductInfo.sale}</th>
+                        <th>{mainProductInfo.colors}</th>
+                        <th>{mainProductInfo.popularity}</th>
                     
                 </tbody>
             </table>
