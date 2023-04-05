@@ -1,0 +1,24 @@
+.list-users{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.list-users-box{
+    background-color: var(--white);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.list-users-box-tr th{
+    padding: 20px ;
+}
+.list-users-box-tr th button{
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+}
