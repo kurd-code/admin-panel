@@ -24,9 +24,9 @@ export default function Products() {
   useEffect(()=>{
     getAllProducts()
   },[])
-  // useEffect(()=>{
-  //   getAllProducts()
-  // },[mainProductEdit])
+  useEffect(()=>{
+    getAllProducts()
+  },[showEditProduct])
 
   function deleteModal(){
     console.log("ok")

@@ -22,6 +22,7 @@ export default function EditModal({setShowEditProduct , mainProductEdit , getAll
     setNewpapularity(mainProductEdit.popularity)
     setNewsale(mainProductEdit.sale)
   },[])
+  
 
 
     function handEdit(){
